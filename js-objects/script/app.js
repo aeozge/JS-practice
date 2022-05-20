@@ -23,6 +23,8 @@ const renderMovies = (filter = '') => {
 
     //let text = info.title + ' - ';
 
+
+    //Object Destructuring
     let { getFormattedTitle } = movie;
 
     let text = getFormattedTitle.apply(movie) + ' - ';
